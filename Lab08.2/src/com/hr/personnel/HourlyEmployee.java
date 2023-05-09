@@ -20,6 +20,7 @@ public class HourlyEmployee extends Employee {
         setHours(hours);
     }
     //business method
+    @Override
     public void pay(){
         System.out.println(getName() +" is paid hourly. Total is: "+(getHours()*getRate()));
     }

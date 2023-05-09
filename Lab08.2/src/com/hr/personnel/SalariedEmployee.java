@@ -18,9 +18,11 @@ public class SalariedEmployee extends Employee {
         setSalary(salary);
     }
     //business methods
+    @Override
     public void pay(){
         System.out.println(getName() + " is paid salary "+ getSalary());
     }
+
     //accessor methods
     public double getSalary() {
         return salary;
