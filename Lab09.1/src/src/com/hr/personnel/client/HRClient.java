@@ -6,9 +6,12 @@
  * Copyright LearningPatterns Inc.
  */
 
-package com.hr.personnel.client;
+package src.com.hr.personnel.client;
 
-import com.hr.personnel.*;
+import src.com.hr.personnel.Department;
+import src.com.hr.personnel.Executive;
+import src.com.hr.personnel.HourlyEmployee;
+import src.com.hr.personnel.SalariedEmployee;
 
 import java.time.LocalDate;
 

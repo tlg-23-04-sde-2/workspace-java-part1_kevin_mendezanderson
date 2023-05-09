@@ -6,7 +6,7 @@
  * Copyright LearningPatterns Inc.
  */
 
-package com.hr.personnel;
+package src.com.hr.personnel;
 
 /**
  * The Department class manages employees.
